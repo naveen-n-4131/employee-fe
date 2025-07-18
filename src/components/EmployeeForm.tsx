@@ -26,7 +26,7 @@ const EmployeeForm: React.FC<Props> = ({
         initialValues={initialValues}
         onFinish={onFinish}
         submitter={{
-          render: (props, dom) => {
+          render: (_props, dom) => {
             return (
               <div style={{ display: "flex", gap: "8px" }}>
                 {dom}
